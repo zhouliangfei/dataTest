@@ -1,9 +1,9 @@
 //
-//  NSSQLObject.h
+//  NSSQLManager.h
 //  dataTest
 //
 //  Created by mac on 13-6-17.
-//  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2013年 383541328@qq.com All rights reserved.
 //
 #import <Foundation/Foundation.h>
 
