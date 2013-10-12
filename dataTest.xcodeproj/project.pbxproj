@@ -19,6 +19,7 @@
 		04AF9EC41668B57C000C5804 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AF9EC31668B57C000C5804 /* CoreData.framework */; };
 		04BF05551777EE1700507816 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF05541777EE1700507816 /* Product.m */; };
 		04C6DAAD177033A500AB2A6B /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C6DAAC177033A500AB2A6B /* libsqlite3.0.dylib */; };
+		04E5B22F18094438009E3092 /* UISwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5B22E18094438009E3092 /* UISwipeView.m */; };
 		04E98AF0178169C500E3406A /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E98AEF178169C500E3406A /* Post.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,8 @@
 		04BF05531777EE1700507816 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		04BF05541777EE1700507816 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		04C6DAAC177033A500AB2A6B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		04E5B22D18094438009E3092 /* UISwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISwipeView.h; sourceTree = "<group>"; };
+		04E5B22E18094438009E3092 /* UISwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISwipeView.m; sourceTree = "<group>"; };
 		04E98AEE178169C500E3406A /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		04E98AEF178169C500E3406A /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +70,8 @@
 			children = (
 				04C6DAAC177033A500AB2A6B /* libsqlite3.0.dylib */,
 				04BF05531777EE1700507816 /* Product.h */,
+				04E5B22D18094438009E3092 /* UISwipeView.h */,
+				04E5B22E18094438009E3092 /* UISwipeView.m */,
 				04BF05541777EE1700507816 /* Product.m */,
 				04E98AEE178169C500E3406A /* Post.h */,
 				04E98AEF178169C500E3406A /* Post.m */,
@@ -189,6 +194,7 @@
 				0413DF73176F0F79001E0ECA /* NSSQLManager.m in Sources */,
 				04BF05551777EE1700507816 /* Product.m in Sources */,
 				04E98AF0178169C500E3406A /* Post.m in Sources */,
+				04E5B22F18094438009E3092 /* UISwipeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
